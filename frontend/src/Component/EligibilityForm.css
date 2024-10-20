@@ -1,0 +1,89 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, blue, skyblue);
+}
+.eligibility-form {
+    width: 60vh;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f0f9ff;
+    border-radius: 10px;
+    border: 5px solid #ffd700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-header {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #0047ab;
+}
+.form-input, .rule-input, .rule-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #0047ab;
+}
+.rules-contain{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: max-content;
+}
+.rule-container {
+    display: flex;
+    align-items: baseline;
+}
+.rule-select {
+    margin-right: 10px;
+    width: 100px;
+}
+.rule-input {
+    margin-right: 10px;
+    flex: 1;
+}
+.rule-remove-btn {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.rule-remove-btn:hover {
+    background-color: #ff4500;
+}
+.add-rule-btn, .submit-btn {
+    background-color: #ffd700;
+    color: #0047ab;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.add-rule-btn:hover, .submit-btn:hover {
+    background-color: #ffc107;
+}
+.submit-btn {
+    margin-left: 10px;
+}
+.eligibility-result {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.eligible {
+    color: green;
+}
+.not-eligible {
+    color: red;
+}
